@@ -61,7 +61,7 @@
             <tr>
                 <td><asp:Button ID="DealSubmit_bn" runat="server" Text="Submit" OnClick="DealSubmit_bn_Click" /></td>
                 <td>
-                    <asp:Label ID="FinalPrice" runat="server" Visible="False"></asp:Label></td>
+                    <asp:Label ID="FinalPrice_lbl" runat="server" Visible="False"></asp:Label></td>
             </tr>
         </table>
 </asp:Content>

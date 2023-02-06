@@ -24,8 +24,8 @@ namespace TLG_Shop.Pages
             string workerID = WorkerID_txt.Text;
             string orderDate = OrderDate_txt.Text;
 
-            FinalPrice.Text = (price * 0.83).ToString();
-            FinalPrice.Visible = true;
+            FinalPrice_lbl.Text = (price * 1.17).ToString();
+            FinalPrice_lbl.Visible = true;
         }
     }
 }
