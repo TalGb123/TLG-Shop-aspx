@@ -13,5 +13,10 @@ namespace TLG_Shop.Pages
         {
 
         }
+
+        protected void ItemCode_txt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

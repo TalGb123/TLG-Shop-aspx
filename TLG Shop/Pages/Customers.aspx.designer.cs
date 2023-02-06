@@ -157,5 +157,14 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Cellphone_txt;
+
+        /// <summary>
+        /// customerSubmit_bn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button customerSubmit_bn;
     }
 }

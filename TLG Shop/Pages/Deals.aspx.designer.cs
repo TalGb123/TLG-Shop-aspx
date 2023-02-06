@@ -139,5 +139,23 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox OrderDate_txt;
+
+        /// <summary>
+        /// DealSubmit_bn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button DealSubmit_bn;
+
+        /// <summary>
+        /// FinalPrice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label FinalPrice;
     }
 }

@@ -44,6 +44,9 @@
             <td><asp:TextBox ID="Cellphone_txt" runat="server"></asp:TextBox></td>
             <td></td>
         </tr>
+        <tr>
+            <td><asp:Button ID="customerSubmit_bn" runat="server" Text="Button" OnClick="customerSubmit_bn_Click" /></td>
+        </tr>
     </table>
 </asp:Content>
 

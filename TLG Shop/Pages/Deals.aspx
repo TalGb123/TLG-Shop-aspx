@@ -23,7 +23,11 @@
                 <td>
                     <asp:Label ID="PaymentMethod_lbl" runat="server" Text="Payment Method:"></asp:Label></td>
                 <td>
-                    <asp:DropDownList ID="PaymentMethod_ddl" runat="server" Width="131px"></asp:DropDownList></td>
+                    <asp:DropDownList ID="PaymentMethod_ddl" runat="server" Width="131px">
+                        <asp:ListItem>Check</asp:ListItem>
+                        <asp:ListItem>Cash</asp:ListItem>
+                        <asp:ListItem>Credit Card</asp:ListItem>
+                    </asp:DropDownList></td>
                 <td></td>
             </tr>
             <tr>
@@ -53,6 +57,11 @@
                 <td>
                     <asp:TextBox ID="OrderDate_txt" runat="server" TextMode="Date"></asp:TextBox></td>
                 <td></td>
+            </tr>
+            <tr>
+                <td><asp:Button ID="DealSubmit_bn" runat="server" Text="Submit" OnClick="DealSubmit_bn_Click" /></td>
+                <td>
+                    <asp:Label ID="FinalPrice" runat="server" Visible="False"></asp:Label></td>
             </tr>
         </table>
 </asp:Content>

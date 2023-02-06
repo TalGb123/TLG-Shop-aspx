@@ -6,12 +6,14 @@
     <table>
         <tr>
             <td><asp:Label ID="ItemCode_lbl" runat="server" Text="Item Code:"></asp:Label></td>
-            <td><asp:TextBox ID="ItemCode_txt" runat="server"></asp:TextBox></td>
+            <td>
+                <asp:TextBox ID="ItemCode_txt" runat="server" OnTextChanged="ItemCode_txt_TextChanged"></asp:TextBox></td>
             <td></td>
         </tr>
         <tr>
             <td><asp:Label ID="ProductName_lbl" runat="server" Text="Customer ID:"></asp:Label></td>
-            <td><asp:TextBox ID="ProductName_txt" runat="server"></asp:TextBox></td>
+            <td>
+                <asp:TextBox ID="ProductName_txt" runat="server" MaxLength="9"></asp:TextBox></td>
             <td></td>
         </tr>
             <tr>

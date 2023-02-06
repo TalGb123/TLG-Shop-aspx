@@ -13,5 +13,19 @@ namespace TLG_Shop.Pages
         {
 
         }
+
+        protected void DealSubmit_bn_Click(object sender, EventArgs e)
+        {
+            string dealCode = DealCode_txt.Text;
+            string customerID = CustomerID_txt.Text;
+            string paymentMethod = PaymentMethod_ddl.SelectedItem.Value;
+            double price = double.Parse(Price_txt.Text);
+            string itemCode = ItemCode_txt.Text;
+            string workerID = WorkerID_txt.Text;
+            string orderDate = OrderDate_txt.Text;
+
+            FinalPrice.Text = (price * 0.83).ToString();
+            FinalPrice.Visible = true;
+        }
     }
 }

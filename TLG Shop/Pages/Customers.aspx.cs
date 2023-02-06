@@ -13,5 +13,18 @@ namespace TLG_Shop.Pages
         {
 
         }
+
+        protected void customerSubmit_bn_Click(object sender, EventArgs e)
+        {
+            string id = CustomerID_txt.Text;
+            string firstName = FirstName_txt.Text;
+            string lastName = LastName_txt.Text;
+            string street = Street_txt.Text;
+            string homeNumber = HomeNumber_txt.Text;
+            string apartmentNumber = ApartmentNumber_txt.Text;
+            string cellphoneNumber = Cellphone_txt.Text;
+
+
+        }
     }
 }
