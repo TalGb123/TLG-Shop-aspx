@@ -33,6 +33,24 @@ namespace TLG_Shop.Pages
         protected global::System.Web.UI.WebControls.TextBox CustomerID_txt;
 
         /// <summary>
+        /// CustomerIDrfv control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator CustomerIDrfv;
+
+        /// <summary>
+        /// CustomerID_RFV control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator CustomerID_RFV;
+
+        /// <summary>
         /// FirstName_lbl control.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,15 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox FirstName_txt;
+
+        /// <summary>
+        /// firstNamerfv control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator firstNamerfv;
 
         /// <summary>
         /// LastName_lbl control.
@@ -69,6 +96,15 @@ namespace TLG_Shop.Pages
         protected global::System.Web.UI.WebControls.TextBox LastName_txt;
 
         /// <summary>
+        /// lastNamerfv control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator lastNamerfv;
+
+        /// <summary>
         /// City_lbl control.
         /// </summary>
         /// <remarks>
@@ -85,6 +121,15 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox City_txt;
+
+        /// <summary>
+        /// RequiredFieldValidator4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator4;
 
         /// <summary>
         /// Street_lbl control.
@@ -105,6 +150,15 @@ namespace TLG_Shop.Pages
         protected global::System.Web.UI.WebControls.TextBox Street_txt;
 
         /// <summary>
+        /// RequiredFieldValidator5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator5;
+
+        /// <summary>
         /// HomeNumber_lbl control.
         /// </summary>
         /// <remarks>
@@ -121,6 +175,15 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox HomeNumber_txt;
+
+        /// <summary>
+        /// RequiredFieldValidator6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator6;
 
         /// <summary>
         /// ApartmentNumber_lbl control.
@@ -141,6 +204,15 @@ namespace TLG_Shop.Pages
         protected global::System.Web.UI.WebControls.TextBox ApartmentNumber_txt;
 
         /// <summary>
+        /// RequiredFieldValidator7 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator7;
+
+        /// <summary>
         /// Cellphone_lbl control.
         /// </summary>
         /// <remarks>
@@ -157,6 +229,15 @@ namespace TLG_Shop.Pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox Cellphone_txt;
+
+        /// <summary>
+        /// RequiredFieldValidator8 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator8;
 
         /// <summary>
         /// customerSubmit_bn control.
